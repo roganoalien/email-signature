@@ -1,0 +1,83 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Muli" href="https://fonts.googleapis.com/css2?family=Muli:wght@400;900&display=swap" />
+    <mj-attributes>
+      <mj-all font-family="Muli, sans-serif" />
+    </mj-attributes>
+    <mj-style>
+      .ghost {
+        opacity: 0.5;
+      }
+
+      .maxer {
+        max-width: 500px;
+      }
+
+      .force-color {
+        color: #3839FF !important;
+      }
+
+      .force-color:visited {
+        color: #3839FF !important;
+      }
+
+      .force-color a {
+        color: #3839FF !important;
+      }
+
+      .force-color a:visited,
+      .force-color a:hover,
+      .force-color a:active,
+      .force-color a:focus {
+        color: #3839FF !important;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body width="100%">
+    <!-- <mj-section full-width="full-width" text-align="left" padding="0">
+      <mj-column width="200px">
+        <mj-image width="100px" border-radius="50%" align="left" src="https://miaeromexico.sfo2.cdn.digitaloceanspaces.com/tests/rgb.jpg" alt="Rodrigo Garcia" />
+      </mj-column>
+    </mj-section> -->
+    <mj-section padding="0" full-width="full-width" text-align="left">
+      <mj-column width="200px">
+        <mj-image width="150px" border-radius="50%" align="left" src="https://miaeromexico.sfo2.cdn.digitaloceanspaces.com/tests/rgb_optimized.gif" alt="Rodrigo Garcia" />
+      </mj-column>
+      <mj-column width="50%" vertical-align="middle">
+        <mj-text color="#162135" font-weight="900" font-size="35px" padding-top="18px" padding-bottom="0">
+          Rodrigo García
+        </mj-text>
+        <mj-text color="#162135" line-height="10px" padding-top="0" padding-bottom="0" font-size="25px" css-class="ghost">
+          <p>Creative Developer</p>
+        </mj-text>
+        <mj-button font-size="16px" letter-spacing="1px" line-height="10px" font-weight="900" href="tel:+525582457813" align="left" padding="0" href="https://rodrigogarcia.com.mx" color="#3839FF" background-color="rgba(0,0,0,0)" css-class="force-color">
+          +52 55 8245 7813
+        </mj-button>
+        <mj-button font-size="16px" letter-spacing="1px" line-height="0px" font-weight="900" href="mailto:hola@rodrigogarcia.com.mx" align="left" padding="0" href="https://rodrigogarcia.com.mx" color="#3839FF" background-color="rgba(0,0,0,0)" css-class="force-color">
+          hola@rodrigogarcia.com.mx
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section text-align="left">
+      <mj-group width="50%">
+        <mj-column width="235px">
+          <mj-button width="100%" href="https://rodrigogarcia.com.mx" color="#ffffff" background-color="#3839FF" border="2px solid #3839FF" height="40px">
+            Visitar mi sitio web
+          </mj-button>
+        </mj-column>
+        <mj-column width="210px">
+          <mj-button width="100%" href="https://rodrigogarcia.com.mx/public/cv/2019_rodrigogarcia_creative-developer.pdf" color="#3839FF" background-color="transparent" border="2px solid #3839FF" height="40px">
+            Descargar mi CV
+          </mj-button>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-section text-align="left" padding-top="0">
+      <mj-column width="50%">
+        <mj-text color="#162135" padding-top="0" padding-bottom="0" font-size="13px" css-class="ghost maxer">
+          El contenido y archivos adjuntos de este correo son confidenciales y se entienden dirigidos y para uso exclusivo del destinatario, por lo que no podrá distribuirse y/o difundirse por ningún medio sin la previa autorización. Si usted no es el destinatario, se prohíbe su utilización total o parcial para cualquier fin.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
